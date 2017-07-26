@@ -1,0 +1,154 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.header{
+	width: 100%;
+	height: 100px;
+	background-color: #373D41;
+}
+.common-topbar-menu1{
+	width: 100%;
+	height: 40px;
+	border-bottom: 2px solid #494154;
+}
+.common-topbar-menu2{
+	width: 100%;
+	height: 58px;
+	border-bottom: 1px solid #494154;
+}
+.common-topbar-menu1-link{
+	width: 80px;
+	height: 40px;
+	float: right;
+/*	border: 1px solid white;*/
+	padding-left: 5px;
+	margin-right: 5px;
+}
+.common-topbar-menu2-link{
+	width: 120px;
+	height: 58px;
+	float: left;
+	/*border: 1px solid white;*/
+	padding-left:5px ;
+	text-align: center;
+}
+.carousel{
+	width: 100%;
+	height: 460px;
+	margin-top: 1px;
+	margin-left: auto;
+	margin-right:auto ;
+	background: #373D41;
+}
+.footer-warp{
+	width: 100%;
+	height: 350px;
+	margin-top: 60px;
+	margin-left: auto;
+	margin-right: auto;
+	background: #373D41;
+}
+.common-topbar-menu1-link a{
+	font-size: 14px;
+	color:ghostwhite;
+	text-decoration: none;
+}
+.common-topbar-menu1-link span{
+	line-height: 40px;
+}
+.common-topbar-menu1-link a:hover{
+	color: #00C1DE;
+	transition: 0.4s;
+}
+
+.common-topbar-menu1-link img{
+	display: block;
+	margin-top: 8px;
+	margin-left: auto;
+	margin-right:auto ;
+}
+.common-topbar-menu1-leftlogolink{
+	float: left;
+	margin-left: 20px;
+}
+.common-topbar-menu1-leftlogolink span{
+	color: white;
+	font-size: 18px;
+	font-weight: 800;
+	line-height: 40px;
+	opacity: 0.9;
+}
+
+/*实现header-topbar-menu2-link*/
+
+
+.common-topbar-menu2-link-img img{
+	vertical-align: middle;
+}
+.common-topbar-menu2-link span{
+	line-height: 55px;
+}
+.common-topbar-menu2-link a{
+	font-size: 15px;
+	color: white;
+	text-decoration: none;
+}
+/*.common-topbar-menu2-link a:hover{
+	color: #00C1DE;
+	transition: 0.4s;
+}*/
+.common-topbar-menu2-link:hover{
+	background-color: #00aeff;
+	transition: background-color 0.5s;
+}
+
+#common-topbar-menu2-link1{
+	position: absolute;
+	display: none;
+	left: -2px;
+	width: 100%;
+	height: 350px;
+	background-color: rgba(22,26,35,1);
+	z-index: 99999;
+}
+.common-topbar-menu2-linkdisplay{
+	position: absolute;
+	display: none;
+	left: 0px;
+	width: 100%;
+	background-color: rgba(22,26,35,1);
+	z-index: 99999;
+}
+.linkdisplay-module1-wrap1,.linkdisplay-module1-wrap2,.linkdisplay-module1-wrap3,.linkdisplay-module1-wrap4{
+	float: left;
+	width: 300px;
+	height: 300px;
+	color: #c3c5c6;
+}
+.common-topbar-menu2-linkdisplay ul{
+	margin-top: 20px;
+	font-size: 14px;
+	list-style: none;
+}
+.common-topbar-menu2-linkdisplay li{
+	margin-top: 6px;
+}
+.linkdisplay-module2-wrap1,.linkdisplay-module2-wrap2,.linkdisplay-module2-wrap3,.linkdisplay-module2-wrap4,
+.linkdisplay-module3-wrap1,.linkdisplay-module3-wrap2,.linkdisplay-module3-wrap3,.linkdisplay-module3-wrap4,
+.linkdisplay-module4-wrap1,.linkdisplay-module4-wrap2,.linkdisplay-module4-wrap3,.linkdisplay-module4-wrap4,
+.linkdisplay-module5-wrap1,.linkdisplay-module5-wrap2,.linkdisplay-module5-wrap3,.linkdisplay-module5-wrap4,
+.linkdisplay-module6-wrap1,.linkdisplay-module6-wrap2,.linkdisplay-module6-wrap3,.linkdisplay-module6-wrap4{
+	float: left;
+	width: 300px;
+	height: 300px;
+	color: #c3c5c6;
+}
+.common-topbar-menu2-linkdisplay span{
+	color: white;
+	font-size:15px ;
+	font-weight: 600;
+}
+.linkdisplay2{
+	height: 250px;
+}
